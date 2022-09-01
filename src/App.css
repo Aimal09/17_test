@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
-}
+/*CSS for leaderboard*/
+#leaderboard #players {
+   padding: 0;
+   width: 320px;
+   margin: auto;
+   position: relative;
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ #leaderboard #players li {
+   display: grid;
+   grid-template-columns: 1fr 2fr 7fr 3fr;
+   align-items: center;
+   width: 100%;
+   transition-duration: .5s;
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+ #leaderboard #players li.header {
+   font-weight: bold;
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+ #leaderboard #players li .photo img {
+   width: 36px;
+   height: 36px;
+   border-radius: 18px;
+ }
 
-.App-link {
-  color: #61dafb;
-}
+ #leaderboard .score,
+ #leaderboard .rank {
+   text-align: right;
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ #leaderboard #players div {
+   display: block;
+   padding: 5px;
+ }
