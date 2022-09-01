@@ -1,6 +1,6 @@
 Worked as ask in  [https://github.com/slashtu/frontend-hq/blob/master/pretest.md]
 
-Mail files:
+Main files:
     - src/App.js
     - src/compnents/Leaderboard.js
     - src/compnents/Player.js
